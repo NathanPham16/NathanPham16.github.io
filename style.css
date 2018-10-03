@@ -1,0 +1,70 @@
+body {
+    font-family: 'Quicksand', sans-serif;/*This is a comment*/
+    font-size: larger;
+    background-image: url("blue_triangle_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #77abff
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Gentium Book Basic', serif;
+}
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+#nav li {
+    float: left;
+}
+#nav li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+}
+#nav li a:hover{
+    background-color: black;
+    color: white;
+}
+#content{
+    border-style: solid;
+    border-width: 6px;
+    border-color: white;
+    margin-top: 20px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: rgba(150, 165, 188, .60);
+}
+table {
+    margin:auto;
+}
+#content ul, #content ol{
+    width: 15%;
+    margin: auto;
+}
+.text_align_left {
+    text-align: left;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.text_align_left ul, .text_align_left ol{
+    margin-left: auto
+}
+.text_align_left li a:hover{
+    background-color: black;
+    color: white;
+}
+#content #bullet_point_align_left{
+    text-align: left;
+    margin-right: auto;
+    width: 100%;
+}
